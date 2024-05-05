@@ -125,7 +125,7 @@ xsstrike() {
 export PATH="/opt/apache-jmeter-5.6.3/bin:$PATH"
 
 #Zsh-Ask
-export ZSH_ASK_API_KEY="GPTKEY-HERE"
+export ZSH_ASK_API_KEY=""
 
 # User configuration
 
@@ -164,8 +164,9 @@ alias renomear='/home/thor/Documentos/Script/renomear.sh'
 ###################################################
 
 alias dc-dbaas="ssh thor@35.169.198.160"
-alias dc-90anos="ssh thor@54.165.112.15"
+alias dc-homol="ssh thor@18.204.230.2"
 alias dc-infra="ssh thor@52.20.224.218"
+alias dc-next="ssh thor@44.204.231.139"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
