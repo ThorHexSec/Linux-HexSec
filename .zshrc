@@ -168,5 +168,10 @@ alias dc-homol="ssh thor@18.204.230.2"
 alias dc-infra="ssh thor@52.20.224.218"
 alias dc-next="ssh thor@44.204.231.139"
 
+#ssh-keys
+function ssh() {
+    /home/thor/Documentos/Script/ssh-keys.sh "$@"
+}
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
